@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.background{
+    content: "";
+    overflow: auto;
+    width: 100%;
+    background-image: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+header{
+    margin: 50px 0 0;
+}
+header a{
+    display: inline-block;
+}
+nav {
+    float: right;
+}
+nav a:hover{
+    color: blue;
+}
+nav a{
+    display: inline-block;
+    clear: right;
+    font-size: 25px;
+    letter-spacing: 0.65px;
+    text-decoration: none;
+    color: #333333;
+}  
+ul.nav__links {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0 30px 0 0;
+}
+main{
+    margin: 70px 0 0;
+}
+article{
+    display: inline-block;
+}
+.hero{
+    display: inline-block;
+}
+.hero--article__text{
+    float: left;
+    width: 60%;
+    margin: 140px 0 0;
+}
+.hero--article__image{
+    float: right;
+    width: 40%;
+    margin: 60px 0 0;
+}
+.hero--article__image img{
+    width: 100%;
+}
+.download--article__image img{
+    width: 100%;
+}
+.hero h1, h2{
+    clear: both;
+    margin: 0;
+    font-size: 40px;
+    color: #333333;
+}
+.hero h1{
+    font-weight: 300;
+}
+.hero p{
+    width: 70%;
+    margin: 70px 0 0;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0.65px;
+}
+.hero__buttons{
+    font-size: 25px;
+    letter-spacing: 0.65;
+    margin: 60px 0 0;
+}
+.hero__buttons a{
+   text-decoration: none;
+   color: #333333;
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 50px 0 0;
+}
+.hero__appstore img, .hero__playstore img {
+    vertical-align: middle; 
+}
+.hero__appstore{
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #3e3e3e;
+    border-radius: 100px;
+}
+.hero__playstore{
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #3e3e3e;
+    border-radius: 10px;
+}
+.howitworks{
+    margin: 35px 0 0;
+}
+.howitworks h2{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    letter-spacing: 1.3px;
+}
+.card-container{
+    margin: 95px 0 0;
+}
+.card-container ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.card-container li{
+    width: 33%;
+    float: left;
+}
+.card-container img{
+    clear: left;
+    display: block;
+    margin: 0 auto;
+    width: 175px;
+    height: 190px;
+}
+.card-container h2{
+    margin: 45px 0 0;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.78px;
+}
+.howitworks__buttons{
+    font-size: 25px;
+    letter-spacing: 0.65px;
+    text-align: center;
+    margin: 75px 0 0;
+}
+.howitworks__buttons a{
+    vertical-align: middle;
+    text-decoration: none;
+    color: #333333;   
+}
+.howitworks__appstore img, .howitworks__playstore img {
+    vertical-align: middle;
+}
+.howitworks__appstore{
+    padding: 15px;
+    display: inline-block;
+    border-radius: 100px;
+    box-shadow: 0 8px 9px 0 rgba(3, 4, 0, 0.08); 
+    margin: 0 30px 30px 0;
+}
+.howitworks__playstore{
+    padding: 15px;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.07); 
+    margin: 0 0 30px;
+}
+.download{
+    background-color: #f8f8f8;
+    overflow: hidden;
+    position: relative;
+    margin: 30px 0 0;
+}
+.yellow:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 150;
+    top: 0;
+    bottom: 0;
+    opacity: 0.46;
+    width: 186px;
+    background-color: #ffcb00; 
+}
+.download--article__text{
+    float: left;
+    width: 60%;
+    margin: 120px 0 0;
+}
+.download--article__image{
+    float: right;
+    width: 40%;
+    margin: 50px 0 0;
+}
+.download h2{
+    clear: both;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1.23px;
+    margin: 0;
+    color: #3f3f3f;
+}
+.download h3{
+    font-size: 30px;
+    letter-spacing: 0.92px;
+    margin: 0;
+    color: #7a7a7a;
+}
+.download p{
+    font-size: 22px;
+    letter-spacing: 0.68px;
+    margin: 50px 0 0;
+    color: #3f3f3f;
+}
+.joinusnow{
+    margin: 45px 0 0;
+    text-align: center;
+}
+.joinusnow h2{
+    margin: 0;
+    font-size: 50px;
+    line-height: 1.1;
+    letter-spacing: 1.3px;
+    color: #3f3f3f;
+}
+.joinusnow p{
+    display: inline-block;
+    width: 70%;
+    margin: 50px 0 0;
+    font-size: 25px;
+    letter-spacing: 0.65;
+    color: #3f3f3f;
+}
+.searchbar{
+    margin: 55px 0 0;
+}
+.searchbar input{
+    border: 2px solid #ffffff;
+    width: 501px;
+    height: 70px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.11);
+}
+.searchbar input::placeholder {
+    font-size: 20px;
+    letter-spacing: 0.52;
+    opacity: 0.19;
+    color: #3f3f3f;
+}
+.searchbar__button{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0.63px;
+    padding: 14px;
+    box-shadow: 0 6px 9px 0 rgba(244, 214, 58, 0.59);
+    background-image: linear-gradient(103deg, #fceb6f 15%, #fede60 78%);
+}
+.searchbar a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0.63;
+}
+footer{
+    margin: 90px 0 0;
+    background-color: #2a2a2a;
+    text-align: center;
+}
+footer img{
+    margin: 60px 0 0;
+}
+.footer__links li{
+    display: inline-block;
+}
+.footer__links{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.19px;
+    padding: 0;
+    margin: 30px 0 0;
+    list-style: none;
+}
+.footer__links li{
+    padding: 0 10px 0 0;
+}
+.footer__links a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer p{
+    padding: 0 0 15px 0;
+    margin: 30px 0 0 ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.19px;
+    color: #8f8f8f;
+}
+@media screen and (max-width: 768px){
+    .hero--article__text,
+    .hero--article__image {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+    .hero__buttons, .howitworks__buttons {
+      margin-top: 40px;
+    }
+    .hero__buttons a,
+    .howitworks__buttons a {
+      display: block;
+      margin: 0 0 20px;
+      text-align: center;
+    }
+}
